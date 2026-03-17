@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Bante — Laravel Developer | Nagpur</title>
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Abhishek Bante — Laravel Developer with 3+ years experience in PHP, MySQL, REST APIs, and scalable backend systems. Open to Remote, Pune & WFH roles.">
+    <meta name="keywords"
+        content="Abhishek Bante, Laravel Developer, PHP Developer, Backend Developer, Nagpur, REST API, MySQL">
+    <meta name="author" content="Abhishek Bante">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (shows preview on LinkedIn / WhatsApp when you share the link) -->
+    <meta property="og:title" content="Abhishek Bante — Laravel Developer">
+    <meta property="og:description"
+        content="3+ years building scalable Laravel backends, REST APIs, and production systems. Open to Remote & Pune roles.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://abhishekbante.netlify.app">
+
+    <!-- Performance: preconnect loads fonts faster -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-trail" id="cursorTrail"></div>
+
+    <!-- NAV -->
+    <nav>
+        <div class="nav-logo">AB<span>._</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about" onclick="closeMobileMenu()">About</a>
+        <a href="#skills" onclick="closeMobileMenu()">Skills</a>
+        <a href="#experience" onclick="closeMobileMenu()">Experience</a>
+        <a href="#projects" onclick="closeMobileMenu()">Projects</a>
+        <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg-circle"></div>
+        <div class="hero-bg-circle2"></div>
+
+        <div class="hero-content reveal">
+            <div class="hero-tag">Available for opportunities</div>
+            <h1>Abhishek<br><span class="name-highlight">Bante</span></h1>
+            <div class="hero-role">
+                <span class="typed-text">Laravel Developer</span> · Backend Engineer · API Specialist
+            </div>
+            <p class="hero-desc">
+                Building scalable backend systems, ERP platforms, and production-grade web applications
+                with 3+ years of hands-on experience in Laravel, PHP, and MySQL.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary-custom">View My Work</a>
+                <a href="#contact" class="btn-outline-custom">Get In Touch</a>
+            </div>
+
+            <!-- Mobile stats -->
+            <div class="hero-stats-mobile">
+                <div class="stat-item">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Years Exp</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Tech Stack</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Desktop stats -->
+        <div class="hero-stats">
+            <div class="stat-item reveal">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Years Exp</div>
+            </div>
+            <div class="stat-item reveal">
+                <div class="stat-number">8+</div>
+                <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-item reveal">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Tech Stack</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="section-header reveal">
+            <div class="section-number">01 — About</div>
+            <h2 class="section-title">Who I Am</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p>
+                    I'm a Backend Developer based in Nagpur, India, with 3+ years of professional experience
+                    specializing in Laravel, PHP, and MySQL. I build scalable backend systems that power
+                    real businesses in production environments.
+                </p>
+                <p>
+                    At ICEICO Technologies, I've led development of multi-service platforms, automated
+                    workflows using cron jobs, built real-time chatbots with E2E encryption, and designed
+                    RESTful APIs consumed by thousands of users.
+                </p>
+                <p>
+                    Beyond backend work, I completed a digital payment analytics project using Power BI,
+                    and I'm currently expanding into Python and data engineering to become a more
+                    well-rounded engineer.
+                </p>
+                <p
+                    style="font-family:'Space Mono',monospace;font-size:0.8rem;color:var(--text-muted);margin-top:8px;border-left:2px solid var(--border);padding-left:16px;line-height:1.7;">
+                    Note: Most client projects are hosted on the company's private Git repositories due to
+                    NDA and security requirements. Public GitHub activity reflects personal and open work only.
+                </p>
+            </div>
+            <div class="about-highlights reveal">
+                <div class="highlight-item">
+                    <div class="highlight-icon">⚡</div>
+                    <div class="highlight-text"><strong>Backend Specialist</strong><span>Laravel · PHP · MySQL · REST
+                            APIs</span></div>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">🏢</div>
+                    <div class="highlight-text"><strong>ICEICO Technologies</strong><span>Web Developer · Jan 2024 –
+                            Present</span></div>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">📊</div>
+                    <div class="highlight-text"><strong>Data Analytics</strong><span>Power BI · SQL · Excel · DAX</span>
+                    </div>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">🐍</div>
+                    <div class="highlight-text"><strong>Currently Learning</strong><span>Python · Pandas · NumPy ·
+                            Automation</span></div>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">📍</div>
+                    <div class="highlight-text"><strong>Location</strong><span>Nagpur, Maharashtra · Open to Remote /
+                            Pune</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="section-header reveal">
+            <div class="section-number">02 — Skills</div>
+            <h2 class="section-title">Tech Stack</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category reveal">
+                <div class="skill-cat-title">Backend</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Laravel</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">Composer</span>
+                    <span class="skill-tag">Artisan CLI</span>
+                    <span class="skill-tag">Eloquent ORM</span>
+                    <span class="skill-tag">Middleware</span>
+                    <span class="skill-tag">Blade</span>
+                    <span class="skill-tag">MVC</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-cat-title">Database</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Oracle DB</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">Elasticsearch</span>
+                    <span class="skill-tag">Query Optimization</span>
+                    <span class="skill-tag">DB Design</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-cat-title">Frontend</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">jQuery</span>
+                    <span class="skill-tag">AJAX</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-cat-title">Data & Analytics</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Power BI</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Excel</span>
+                    <span class="skill-tag">Power Query</span>
+                    <span class="skill-tag">DAX</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-cat-title">DevOps & Tools</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">Cron Jobs</span>
+                    <span class="skill-tag">RBAC</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-cat-title">Currently Learning 🚀</div>
+                <div class="skill-tags">
+                    <span class="skill-tag learning">Python</span>
+                    <span class="skill-tag learning">Pandas</span>
+                    <span class="skill-tag learning">NumPy</span>
+                    <span class="skill-tag learning">Automation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="section-header reveal">
+            <div class="section-number">03 — Experience</div>
+            <h2 class="section-title">Work History</h2>
+        </div>
+        <div class="exp-timeline">
+            <div class="exp-item reveal">
+                <div class="exp-meta">Jan 2024 – Present · Full Time</div>
+                <div class="exp-company">ICEICO Technologies Pvt. Ltd.</div>
+                <div class="exp-role">Web Developer · Nagpur, India</div>
+                <ul class="exp-points">
+                    <li>Built Uplynk Networks — a multi-service platform with Matrimony, Jobs, Classifieds, Events, News
+                        & Forums modules using Laravel MVC architecture, with Oracle DB for primary storage</li>
+                    <li>Developed cron job automation systems for scheduled data processing, notifications, and report
+                        generation</li>
+                    <li>Built real-time chatbot with End-to-End encryption for secure user communication</li>
+                    <li>Designed and maintained RESTful APIs consumed by frontend and mobile clients</li>
+                    <li>Implemented Role-Based Access Control (RBAC) for multi-level user management</li>
+                    <li>Integrated Elasticsearch for fast, full-text search across large datasets</li>
+                    <li>Managed AWS deployment and live production server maintenance</li>
+                </ul>
+            </div>
+            <div class="exp-item reveal">
+                <div class="exp-meta">July 2023 – Jan 2024 · Internship</div>
+                <div class="exp-company">ICEICO Technologies Pvt. Ltd.</div>
+                <div class="exp-role">Web Developer Intern · Nagpur, India</div>
+                <ul class="exp-points">
+                    <li>Developed Migradent.com — a dental clinic management platform with appointment booking and
+                        patient records</li>
+                    <li>Built CA/Advocate management system for professional services firms</li>
+                    <li>Contributed to AstromarG — astrology platform UI and backend modules</li>
+                    <li>Learned production-level Laravel development, database design, and API architecture</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="section-header reveal">
+            <div class="section-number">04 — Projects</div>
+            <h2 class="section-title">What I've Built</h2>
+        </div>
+
+        <!-- Private repo notice -->
+        <div class="reveal"
+            style="margin-bottom:32px;padding:16px 20px;background:var(--bg);border:1px solid var(--border);border-left:3px solid var(--accent3);display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+            <span style="font-size:1rem;">🔒</span>
+            <span style="font-family:'Space Mono',monospace;font-size:0.72rem;color:var(--text-muted);line-height:1.7;">
+                All client projects are maintained on the company's private Git repositories due to NDA and client
+                security policies. GitHub profile activity reflects personal projects only.
+            </span>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Featured -->
+            <div class="project-card featured reveal">
+                <div class="featured-badge">⭐ Featured</div>
+                <div>
+                    <div class="private-badge">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+                        </svg>
+                        Private Repo · Company Git
+                    </div>
+                    <div class="project-tag">Ongoing · Nov 2025 – Present</div>
+                    <div class="project-title">Uplynk Networks<br>Multi-Service Platform</div>
+                    <div class="project-desc">
+                        A comprehensive multi-service platform combining Matrimony, Jobs, Classifieds,
+                        Events, Forums, and News on a single Laravel system. Uses Oracle DB for storage,
+                        features automated cron jobs, real-time chatbot with E2E encryption, full RBAC
+                        system, and Elasticsearch integration for fast search across millions of records.
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-badge">Laravel</span>
+                        <span class="tech-badge">Oracle DB</span>
+                        <span class="tech-badge">Elasticsearch</span>
+                        <span class="tech-badge">REST API</span>
+                        <span class="tech-badge">Cron Jobs</span>
+                        <span class="tech-badge">RBAC</span>
+                        <span class="tech-badge">AWS</span>
+                        <span class="tech-badge">E2E Encryption</span>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <div class="code-line"><span class="ln">1</span><span><span class="cm">// Cron: Every 15
+                                minutes</span></span></div>
+                    <div class="code-line"><span class="ln">2</span><span><span class="kw">class</span> <span
+                                class="fn">DrawResultCommand</span></span></div>
+                    <div class="code-line"><span class="ln">3</span><span>{</span></div>
+                    <div class="code-line"><span class="ln">4</span><span>&nbsp;&nbsp;<span class="kw">public
+                                function</span> <span class="fn">handle</span>()</span></div>
+                    <div class="code-line"><span class="ln">5</span><span>&nbsp;&nbsp;{</span></div>
+                    <div class="code-line"><span class="ln">6</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cm">//
+                                Liability-based winner</span></span></div>
+                    <div class="code-line"><span class="ln">7</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                class="fn">asort</span>(<span class="st">$numberStats</span>);</span></div>
+                    <div class="code-line"><span class="ln">8</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                class="st">$winner</span> = <span class="fn">pickLowest</span>();</span></div>
+                    <div class="code-line"><span class="ln">9</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                class="fn">payWinners</span>(<span class="st">$winner</span> * 90);</span></div>
+                    <div class="code-line"><span class="ln">10</span><span>&nbsp;&nbsp;}</span></div>
+                    <div class="code-line"><span class="ln">11</span><span>}</span></div>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <!-- <div class="private-badge">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+                    </svg>
+                    Private Repo · Company Git
+                </div> -->
+                <div class="project-tag">Laravel · Gaming Platform</div>
+                <div class="project-title">Lottery Draw Platform</div>
+                <div class="project-desc">
+                    Real-time lottery platform with 15-minute automated draws, multi-series betting
+                    (HIGH/LOW modes), liability-based winner selection, and instant wallet credit system.
+                    Features advance draw booking and barcode ticket generation.
+                </div>
+                <div class="project-tech">
+                    <span class="tech-badge">Laravel</span>
+                    <span class="tech-badge">MySQL</span>
+                    <span class="tech-badge">Cron Jobs</span>
+                    <span class="tech-badge">JS</span>
+                    <span class="tech-badge">Real-time</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-tag">Power BI · Data Analytics</div>
+                <div class="project-title">Digital Payment Failure & Revenue Loss Analysis</div>
+                <div class="project-desc">
+                    Comprehensive Power BI dashboard analyzing digital payment failures and revenue
+                    loss patterns. Built with DAX formulas, Power Query transformations, and
+                    interactive drill-through reports for business decision making.
+                </div>
+                <div class="project-tech">
+                    <span class="tech-badge">Power BI</span>
+                    <span class="tech-badge">DAX</span>
+                    <span class="tech-badge">Power Query</span>
+                    <span class="tech-badge">Excel</span>
+                    <span class="tech-badge">SQL</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="private-badge">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+                    </svg>
+                    Private Repo · Company Git
+                </div>
+                <div class="project-tag">Laravel · Healthcare</div>
+                <div class="project-title">Migradent.com</div>
+                <div class="project-desc">
+                    Dental clinic management platform with appointment booking, patient records,
+                    treatment history tracking, and doctor schedule management built on Laravel.
+                </div>
+                <div class="project-tech">
+                    <span class="tech-badge">Laravel</span>
+                    <span class="tech-badge">MySQL</span>
+                    <span class="tech-badge">Bootstrap</span>
+                    <span class="tech-badge">jQuery</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="private-badge">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+                    </svg>
+                    Private Repo · Company Git
+                </div>
+                <div class="project-tag">Laravel · CRM · Third-Party APIs</div>
+                <div class="project-title">Tangent & Call Management CRM</div>
+                <div class="project-desc">
+                    CRM platform for call agencies to manage leads, clients, follow-ups, and internal
+                    team operations. Integrates third-party calling APIs for call logging, lead pipeline
+                    tracking, and automated reporting. Hosted on AWS.
+                </div>
+                <div class="project-tech">
+                    <span class="tech-badge">Laravel</span>
+                    <span class="tech-badge">MySQL</span>
+                    <span class="tech-badge">REST API</span>
+                    <span class="tech-badge">RBAC</span>
+                    <span class="tech-badge">AWS</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="private-badge">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+                    </svg>
+                    Private Repo · Company Git
+                </div>
+                <div class="project-tag">Laravel · E-Commerce</div>
+                <div class="project-title">Greenybasket</div>
+                <div class="project-desc">
+                    E-commerce platform for grocery and fresh produce delivery with product catalog,
+                    cart management, order tracking, and vendor management system.
+                </div>
+                <div class="project-tech">
+                    <span class="tech-badge">Laravel</span>
+                    <span class="tech-badge">MySQL</span>
+                    <span class="tech-badge">Bootstrap</span>
+                    <span class="tech-badge">AJAX</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="private-badge">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+                    </svg>
+                    Private Repo · Company Git
+                </div>
+                <div class="project-tag">Laravel · Astrology</div>
+                <div class="project-title">AstromarG Platform</div>
+                <div class="project-desc">
+                    Astrology services platform with horoscope generation, consultation booking,
+                    astrologer profiles, and payment integration. Built UI and backend modules.
+                </div>
+                <div class="project-tech">
+                    <span class="tech-badge">Laravel</span>
+                    <span class="tech-badge">MySQL</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">Bootstrap</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="private-badge">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+                    </svg>
+                    Private Repo · Company Git
+                </div>
+                <div class="project-tag">Laravel · Professional Services</div>
+                <div class="project-title">CA & Advocate Management</div>
+                <div class="project-desc">
+                    Practice management system for chartered accountants and advocates. Features
+                    client management, document handling, case tracking, and billing management.
+                </div>
+                <div class="project-tech">
+                    <span class="tech-badge">Laravel</span>
+                    <span class="tech-badge">MySQL</span>
+                    <span class="tech-badge">Bootstrap</span>
+                    <span class="tech-badge">RBAC</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-header reveal">
+            <div class="section-number">05 — Contact</div>
+            <h2 class="section-title">Let's Work Together</h2>
+        </div>
+        <p style="color:var(--text-muted);font-size:1.05rem;margin-bottom:48px;max-width:500px;line-height:1.8;"
+            class="reveal">
+            Open to Laravel Developer roles in Pune, Remote, or WFH opportunities.
+            Let's build something great together.
+        </p>
+        <div class="contact-grid reveal">
+            <a href="mailto:abhibbante003@gmail.com" class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <div>
+                    <div class="contact-label">Email</div>
+                    <div class="contact-value">abhibbante003@gmail.com</div>
+                </div>
+            </a>
+            <a href="tel:7517035268" class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div>
+                    <div class="contact-label">Phone</div>
+                    <div class="contact-value">+91 7517035268</div>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/abhishek-bante-14a2391b3/" target="_blank" class="contact-item">
+                <div class="contact-icon">💼</div>
+                <div>
+                    <div class="contact-label">LinkedIn</div>
+                    <div class="contact-value">abhishek-bante-14a2391b3</div>
+                </div>
+            </a>
+            <a href="https://github.com/Abhi00033" target="_blank" class="contact-item">
+                <div class="contact-icon">🐙</div>
+                <div>
+                    <div class="contact-label">GitHub</div>
+                    <div class="contact-value">github.com/Abhi00033</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <span>Abhishek Bante</span>
+        <span>Laravel Developer · Nagpur, India · Open to Work</span>
+        <span id="footer-year">© 2026</span>
+    </footer>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
