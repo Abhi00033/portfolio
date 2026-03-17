@@ -63,9 +63,12 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('footer-year').textContent = '© ' + currentYear;
 
     const startDate = new Date('2023-07-01');
-    const yearsExp = Math.floor((now - startDate) / (1000 * 60 * 60 * 24 * 365.25));
+    const totalMonths = (now.getFullYear() - startDate.getFullYear()) * 12 + (now.getMonth() - startDate.getMonth());
+    const years = Math.floor(totalMonths / 12);
+    const months = totalMonths % 12;
+    const expText = months === 0 ? years + ' yrs' : years + '.' + months + ' yrs';
     document.querySelectorAll('.stat-number').forEach((el, i) => {
-        if (i === 0) el.textContent = yearsExp + '+';
+        if (i === 0 || i === 3) el.textContent = expText;
     });
 
     // ---- Typed effect ----
