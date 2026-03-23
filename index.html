@@ -335,7 +335,7 @@
                         <span class="tech-badge">E2E Encryption</span>
                     </div>
                 </div>
-                <div class="project-visual">
+                <!-- <div class="project-visual">
                     <div class="code-line"><span class="ln">1</span><span><span class="cm">// Cron: Every 15
                                 minutes</span></span></div>
                     <div class="code-line"><span class="ln">2</span><span><span class="kw">class</span> <span
@@ -354,11 +354,36 @@
                                 class="fn">payWinners</span>(<span class="st">$winner</span> * 90);</span></div>
                     <div class="code-line"><span class="ln">10</span><span>&nbsp;&nbsp;}</span></div>
                     <div class="code-line"><span class="ln">11</span><span>}</span></div>
+                </div> -->
+
+                <div class="project-visual">
+                    <div class="code-line"><span class="ln">1</span><span><span class="cm">// Cron: Multi-Service
+                                Data Orchestrator</span></span></div>
+                    <div class="code-line"><span class="ln">2</span><span><span class="kw">class</span> <span
+                                class="fn">PlatformSyncCommand</span></span></div>
+                    <div class="code-line"><span class="ln">3</span><span>{</span></div>
+                    <div class="code-line"><span class="ln">4</span><span>&nbsp;&nbsp;<span class="kw">public
+                                function</span> <span class="fn">handle</span>()</span></div>
+                    <div class="code-line"><span class="ln">5</span><span>&nbsp;&nbsp;{</span></div>
+                    <div class="code-line"><span class="ln">6</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cm">//
+                                Archive read chats to Oracle Storage</span></span></div>
+                    <div class="code-line"><span class="ln">7</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                class="st">$chatLogs</span> = <span class="fn">fetchReadMessages</span>();</span></div>
+                    <div class="code-line"><span class="ln">8</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                class="fn">OracleCloud</span>::<span class="fn">upload</span>(<span
+                                class="st">$chatLogs</span>);</span></div>
+                    <div class="code-line"><span class="ln">9</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cm">//
+                                Sync Big Data: Real-time Location Buffers</span></span></div>
+                    <div class="code-line"><span class="ln">10</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                class="fn">LocationService</span>::<span class="fn">syncToAnalytics</span>();</span>
+                    </div>
+                    <div class="code-line"><span class="ln">11</span><span>&nbsp;&nbsp;}</span></div>
+                    <div class="code-line"><span class="ln">12</span><span>}</span></div>
                 </div>
             </div>
 
             <div class="project-card reveal">
-                
+
                 <div class="project-tag">Laravel · Gaming Platform</div>
                 <div class="project-title">Lottery Draw Platform</div>
                 <div class="project-desc">
