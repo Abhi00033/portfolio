@@ -922,6 +922,18 @@ footer span {
     background: var(--accent);
 }
 
+
+.project-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.project-links a {
+    text-decoration: none;
+}
+
 /* ===================== RESPONSIVE ===================== */
 
 /* Large tablets / small laptops */
