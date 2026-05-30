@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // ---- Typed effect ----
-    const roles = ['Laravel Developer', 'Backend Engineer', 'API Specialist', 'Full Stack Developer'];
+    const roles = ['Laravel Developer', 'Backend Engineer', 'API Specialist', 'Machine Learning Enthusiast', 'Future AI Engineer'];
     let ri = 0, ci = 0, typing = true;
     const typedEl = document.querySelector('.typed-text');
 
